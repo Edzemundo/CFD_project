@@ -1,2 +1,1 @@
-if values["createCSV"]:
-            createCSV(values["filepath"])
+filelocation = os.path.join(values["filepath"], values["filename"])
